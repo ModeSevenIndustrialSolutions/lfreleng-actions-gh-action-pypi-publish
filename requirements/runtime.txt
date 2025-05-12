@@ -20,6 +20,7 @@ cryptography==43.0.3
     # via
     #   pyopenssl
     #   pypi-attestations
+    #   rfc3161-client
     #   secretstorage
     #   sigstore
 dnspython==2.7.0
@@ -59,6 +60,8 @@ keyring==25.6.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
+maturin==1.8.4
+    # via rfc3161-client
 mdurl==0.1.2
     # via markdown-it-py
 more-itertools==10.6.0
@@ -115,6 +118,8 @@ requests==2.32.3
     #   twine
 requests-toolbelt==1.0.0
     # via twine
+rfc3161-client==0.0.4
+    # via sigstore
 rfc3986==2.0.0
     # via
     #   pypi-attestations
@@ -129,7 +134,7 @@ secretstorage==3.3.3
     # via keyring
 securesystemslib==1.2.0
     # via tuf
-sigstore==3.5.3
+sigstore==3.6.0
     # via
     #   -r runtime.in
     #   pypi-attestations
@@ -137,7 +142,7 @@ sigstore-protobuf-specs==0.3.2
     # via
     #   pypi-attestations
     #   sigstore
-sigstore-rekor-types==0.0.13
+sigstore-rekor-types==0.0.18
     # via sigstore
 six==1.17.0
     # via python-dateutil
